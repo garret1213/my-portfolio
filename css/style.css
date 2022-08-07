@@ -1,20 +1,20 @@
+* {
+    box-sizing:border-box;
+}
 body {
     font-family: 'Inter', sans-serif;
 }
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .nav-list {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
 }
-
 .nav-link {
     text-decoration: none;
     color: #BF7506;
@@ -22,38 +22,31 @@ body {
     font-size: 16px;
     line-height: 150%
 }
-
 .nav-link.active {
     font-weight: 700;
 }
-
 .container {
     max-width: 870px;
     width: 100%;
     margin: auto;
 }
-
 .header {
     padding: 70px 0px;
     display: flex;
     align-items: center;
 }
-
 .header-photo {
     height: 240px;
     width: 212px;
 }
-
 .header-text {
     margin-left: 27px;
 }
-
 .header-strong {
     font-weight: 700;
     font-size: 48px;
     line-height: 125%;
 }
-
 .header-heading {
     font-weight: 700;
     font-size: 24px;
@@ -64,28 +57,23 @@ body {
     margin-bottom: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .header-primary {
     color: #BF7506;
 }
-
 .social-list {
     list-style-type: none;
     padding: 0;
     display: flex;
     align-items: center;
 }
-
 .social-link {
     display: inline-block;
     padding: 8px;
 }
-
 .header-links {
     display: flex;
     align-items: center;
 }
-
 .cv-download {
     margin-left: 55px;
     display: flex;
@@ -97,11 +85,9 @@ body {
     color: #211B12;
     border-bottom: 2px solid #BF7506;
 }
-
 .cv-icon {
     margin-right: 4px;
 }
-
 .section-heading {
     font-weight: 700;
     font-size: 48px;
@@ -109,22 +95,18 @@ body {
     letter-spacing: -0.03em;
     color: #BF7506;
 }
-
 .cards {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-
 .card {
  max-width: 400px;  
  margin-bottom: 40px; 
 }
-
 .card-text-wrapper {
     padding: 16px;
 }
-
 .card-title {
     font-weight: 700;
     font-size: 24px;
@@ -134,14 +116,12 @@ body {
     margin-top: 0px;
     margin-bottom: 8px;
 }
-
 .card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #211B12;
 }
-
 .tags {
     list-style-type: none;
     padding: 0;
@@ -150,7 +130,6 @@ body {
     margin-top: 8px;
     margin-bottom: 16px;
 }
-
 .tag {
     padding: 4px 8px;
     display: inline-block;
@@ -164,12 +143,10 @@ body {
     border-radius: 4px;
     margin-right: 4px;
 }
-
 .card-buttons {
     display: flex;
     align-items: center;
 }
-
 .card-button {
     display: flex;
     align-items: center;
@@ -182,7 +159,110 @@ body {
     border-bottom: 2px solid #BF7506;
     margin-right: 25px;
 }
-
 .card-button-icon {
     margin-right: 4px;
+}
+.developer {
+    padding: 80px 0 20px;
+    display: flex;
+    align-items: center;
+}
+.developer-about{
+    margin-left: 55px;
+}
+.developer-photo {
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.developer-hello {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+.developer-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.developer-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+.motto {
+    font-size: 24px;
+    line-height: 150%;
+    color: #DD9C3C;
+    margin: 16px 0;
+}
+.developer-sign {
+    max-width: 200px;
+    margin-top: 32px;
+}
+.skills{
+    padding: 20px 0;
+}
+.skills-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+}
+.feedback {
+    padding: 80px 0 160px;
+}
+.input-group {
+    position: relative;
+    padding-top: 9px;
+    margin-bottom: 24px;
+}
+.input-label {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background: #FFFFFF;
+    top: 0;
+    left: 16px;
+}
+.input {
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+}
+.textarea {
+    min-height: 140px;
+}
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+.submit-button {
+    display: flex;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border: none;
+    border-bottom: 2px solid #BF7506;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button-group {
+    display: flex;
+    justify-content: flex-end;
 }
