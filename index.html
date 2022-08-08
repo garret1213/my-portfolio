@@ -16,14 +16,14 @@
         <img src="images/logo.svg" alt="logo">
         <nav class="navigation">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+                <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
             </ul>    
         </nav>
     </div>
-    <header class="header container">
+    <header class="header container" id="main">
         <img src="images/avatar.png" alt="Фаиль" class="header-photo">
         <div class="header-text">
             <strong class="header-strong">Привет 👋</strong>
@@ -49,7 +49,7 @@
             <!-- /.header-links -->
         </div>
     </header>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="section-heading">Последние проекты</h2>
             <div class="cards">
@@ -93,7 +93,7 @@
             </div>
         </div>
     </section>
-    <section class="developer container">
+    <section class="developer container" id="developer">
         <img src="images/developer-photo.png" alt="photo" class="developer-photo">
         <div class="developer-about">
             <span class="developer-hello">Рад вас видеть</span>
@@ -105,7 +105,7 @@
             <img src="images/sign.png" alt="Подпись Фаиль Нигматуллин" class="developer-sign">
         </div>
     </section>
-    <section class="skills container">
+    <section class="skills container" id="skills">
         <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
         <ul class="tags">
             <li class="tags"><a href="#" class="tag">HTML</a></li>
@@ -119,7 +119,9 @@
             <li class="tags"><a href="#" class="tag">SASS</a></li>
         </ul>
     </section>
-    <section class="feedback form-container">
+    <section class="feedback" id="feedback">
+        <img src="images/hand.png" alt="hand" class="feedback-hand">
+        <div class="form-container">
         <h2 class="feedback-title">Готов обсудить проект...</h2>
         <form action="#" class="form">
         <div class="input-group">
@@ -141,6 +143,7 @@
             </button>
         </div>
         </form>
+    </div>
     </section>
 </body>
 </html>
